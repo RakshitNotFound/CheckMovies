@@ -1,0 +1,39 @@
+.banner-card{
+    position: relative;
+}
+.banner-title{
+    position: absolute;
+    top: 100vh;
+    left:5vw;
+    color: white;
+}
+.banner-text{
+    position: absolute;
+    top:105vh;
+    left: 5vw;
+    color:white;
+    overflow: hidden;
+   
+}
+
+
+@media screen and (max-width:400px) {
+    
+    .banner-title{
+        top:40vh;
+        left:5vw;
+    }
+    .banner-text{
+        top:50vh;
+        left: 5vw;
+        font-size: smaller;
+        
+    }
+    .banner-card{
+        height: 20rem;
+    }
+    .banner-img{
+        height: 100%;
+    }
+    
+}

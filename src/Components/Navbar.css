@@ -1,0 +1,16 @@
+.Navbar-items{
+    display: flex;
+    justify-content: flex-start;
+}
+.Navbar-items>*{
+    margin: 2%;
+}
+.favourite{
+    color: black;
+    font-weight: bold;
+    font-size:2rem ;
+    text-decoration: none;
+}
+.movies{
+    text-decoration: none;
+}

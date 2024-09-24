@@ -1,0 +1,18 @@
+.main-grid{
+    margin: 3rem;
+}
+.favourite-img{
+    width: 4rem;
+    height: 3rem;
+}
+.favourite-pagination{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2rem;
+}
+.highlight-genre{
+    color:white;
+    font-weight: bold;
+    background-color: blue;
+}
